@@ -1,0 +1,413 @@
+2017-01-01 22:07:42 Warning: DebugKit not enabled. You need to either install pdo_sqlite, or define the "debug_kit" connection name.
+2017-01-01 22:09:23 Warning: DebugKit not enabled. You need to either install pdo_sqlite, or define the "debug_kit" connection name.
+2017-01-01 22:09:43 Warning: DebugKit not enabled. You need to either install pdo_sqlite, or define the "debug_kit" connection name.
+2017-01-01 22:10:24 Warning: DebugKit not enabled. You need to either install pdo_sqlite, or define the "debug_kit" connection name.
+2017-01-01 22:14:33 Warning: DebugKit not enabled. You need to either install pdo_sqlite, or define the "debug_kit" connection name.
+2017-01-01 22:14:33 Error: [Cake\Controller\Exception\MissingActionException] Action ContactsController::display() could not be found, or is not accessible.
+Exception Attributes: array (
+  'controller' => 'ContactsController',
+  'action' => 'display',
+  'prefix' => '',
+  'plugin' => NULL,
+)
+Request URL: /
+Stack Trace:
+#0 /home/monty/neonet/vendor/cakephp/cakephp/src/Http/ActionDispatcher.php(121): Cake\Controller\Controller->invokeAction()
+#1 /home/monty/neonet/vendor/cakephp/cakephp/src/Http/ActionDispatcher.php(95): Cake\Http\ActionDispatcher->_invoke(Object(App\Controller\ContactsController))
+#2 /home/monty/neonet/vendor/cakephp/cakephp/src/Http/BaseApplication.php(83): Cake\Http\ActionDispatcher->dispatch(Object(Cake\Network\Request), Object(Cake\Network\Response))
+#3 /home/monty/neonet/vendor/cakephp/cakephp/src/Http/Runner.php(65): Cake\Http\BaseApplication->__invoke(Object(Zend\Diactoros\ServerRequest), Object(Zend\Diactoros\Response), Object(Cake\Http\Runner))
+#4 /home/monty/neonet/vendor/cakephp/cakephp/src/Routing/Middleware/RoutingMiddleware.php(62): Cake\Http\Runner->__invoke(Object(Zend\Diactoros\ServerRequest), Object(Zend\Diactoros\Response))
+#5 /home/monty/neonet/vendor/cakephp/cakephp/src/Http/Runner.php(65): Cake\Routing\Middleware\RoutingMiddleware->__invoke(Object(Zend\Diactoros\ServerRequest), Object(Zend\Diactoros\Response), Object(Cake\Http\Runner))
+#6 /home/monty/neonet/vendor/cakephp/cakephp/src/Routing/Middleware/AssetMiddleware.php(88): Cake\Http\Runner->__invoke(Object(Zend\Diactoros\ServerRequest), Object(Zend\Diactoros\Response))
+#7 /home/monty/neonet/vendor/cakephp/cakephp/src/Http/Runner.php(65): Cake\Routing\Middleware\AssetMiddleware->__invoke(Object(Zend\Diactoros\ServerRequest), Object(Zend\Diactoros\Response), Object(Cake\Http\Runner))
+#8 /home/monty/neonet/vendor/cakephp/cakephp/src/Error/Middleware/ErrorHandlerMiddleware.php(81): Cake\Http\Runner->__invoke(Object(Zend\Diactoros\ServerRequest), Object(Zend\Diactoros\Response))
+#9 /home/monty/neonet/vendor/cakephp/cakephp/src/Http/Runner.php(65): Cake\Error\Middleware\ErrorHandlerMiddleware->__invoke(Object(Zend\Diactoros\ServerRequest), Object(Zend\Diactoros\Response), Object(Cake\Http\Runner))
+#10 /home/monty/neonet/vendor/cakephp/cakephp/src/Http/Runner.php(51): Cake\Http\Runner->__invoke(Object(Zend\Diactoros\ServerRequest), Object(Zend\Diactoros\Response))
+#11 /home/monty/neonet/vendor/cakephp/cakephp/src/Http/Server.php(90): Cake\Http\Runner->run(Object(Cake\Http\MiddlewareQueue), Object(Zend\Diactoros\ServerRequest), Object(Zend\Diactoros\Response))
+#12 /home/monty/neonet/webroot/index.php(37): Cake\Http\Server->run()
+#13 {main}
+
+
+2017-01-01 22:14:49 Warning: DebugKit not enabled. You need to either install pdo_sqlite, or define the "debug_kit" connection name.
+2017-01-01 22:14:49 Error: [Cake\Controller\Exception\MissingActionException] Action ContactsController::display() could not be found, or is not accessible.
+Exception Attributes: array (
+  'controller' => 'ContactsController',
+  'action' => 'display',
+  'prefix' => '',
+  'plugin' => NULL,
+)
+Request URL: /
+Stack Trace:
+#0 /home/monty/neonet/vendor/cakephp/cakephp/src/Http/ActionDispatcher.php(121): Cake\Controller\Controller->invokeAction()
+#1 /home/monty/neonet/vendor/cakephp/cakephp/src/Http/ActionDispatcher.php(95): Cake\Http\ActionDispatcher->_invoke(Object(App\Controller\ContactsController))
+#2 /home/monty/neonet/vendor/cakephp/cakephp/src/Http/BaseApplication.php(83): Cake\Http\ActionDispatcher->dispatch(Object(Cake\Network\Request), Object(Cake\Network\Response))
+#3 /home/monty/neonet/vendor/cakephp/cakephp/src/Http/Runner.php(65): Cake\Http\BaseApplication->__invoke(Object(Zend\Diactoros\ServerRequest), Object(Zend\Diactoros\Response), Object(Cake\Http\Runner))
+#4 /home/monty/neonet/vendor/cakephp/cakephp/src/Routing/Middleware/RoutingMiddleware.php(62): Cake\Http\Runner->__invoke(Object(Zend\Diactoros\ServerRequest), Object(Zend\Diactoros\Response))
+#5 /home/monty/neonet/vendor/cakephp/cakephp/src/Http/Runner.php(65): Cake\Routing\Middleware\RoutingMiddleware->__invoke(Object(Zend\Diactoros\ServerRequest), Object(Zend\Diactoros\Response), Object(Cake\Http\Runner))
+#6 /home/monty/neonet/vendor/cakephp/cakephp/src/Routing/Middleware/AssetMiddleware.php(88): Cake\Http\Runner->__invoke(Object(Zend\Diactoros\ServerRequest), Object(Zend\Diactoros\Response))
+#7 /home/monty/neonet/vendor/cakephp/cakephp/src/Http/Runner.php(65): Cake\Routing\Middleware\AssetMiddleware->__invoke(Object(Zend\Diactoros\ServerRequest), Object(Zend\Diactoros\Response), Object(Cake\Http\Runner))
+#8 /home/monty/neonet/vendor/cakephp/cakephp/src/Error/Middleware/ErrorHandlerMiddleware.php(81): Cake\Http\Runner->__invoke(Object(Zend\Diactoros\ServerRequest), Object(Zend\Diactoros\Response))
+#9 /home/monty/neonet/vendor/cakephp/cakephp/src/Http/Runner.php(65): Cake\Error\Middleware\ErrorHandlerMiddleware->__invoke(Object(Zend\Diactoros\ServerRequest), Object(Zend\Diactoros\Response), Object(Cake\Http\Runner))
+#10 /home/monty/neonet/vendor/cakephp/cakephp/src/Http/Runner.php(51): Cake\Http\Runner->__invoke(Object(Zend\Diactoros\ServerRequest), Object(Zend\Diactoros\Response))
+#11 /home/monty/neonet/vendor/cakephp/cakephp/src/Http/Server.php(90): Cake\Http\Runner->run(Object(Cake\Http\MiddlewareQueue), Object(Zend\Diactoros\ServerRequest), Object(Zend\Diactoros\Response))
+#12 /home/monty/neonet/webroot/index.php(37): Cake\Http\Server->run()
+#13 {main}
+
+
+2017-01-01 22:15:45 Warning: DebugKit not enabled. You need to either install pdo_sqlite, or define the "debug_kit" connection name.
+2017-01-01 22:16:20 Warning: DebugKit not enabled. You need to either install pdo_sqlite, or define the "debug_kit" connection name.
+2017-01-01 22:24:09 Warning: DebugKit not enabled. You need to either install pdo_sqlite, or define the "debug_kit" connection name.
+2017-01-01 22:24:14 Warning: DebugKit not enabled. You need to either install pdo_sqlite, or define the "debug_kit" connection name.
+2017-01-02 00:56:25 Warning: DebugKit not enabled. You need to either install pdo_sqlite, or define the "debug_kit" connection name.
+2017-01-02 01:05:55 Warning: DebugKit not enabled. You need to either install pdo_sqlite, or define the "debug_kit" connection name.
+2017-01-02 01:06:00 Warning: DebugKit not enabled. You need to either install pdo_sqlite, or define the "debug_kit" connection name.
+2017-01-02 01:07:43 Warning: DebugKit not enabled. You need to either install pdo_sqlite, or define the "debug_kit" connection name.
+2017-01-02 01:07:44 Error: [ParseError] syntax error, unexpected 'Number' (T_STRING), expecting ',' or ';'
+Request URL: /?sort=dbContactNumber&direction=desc
+Referer URL: http://localhost:8765/?sort=dbContactNumber&direction=asc
+Client IP: 127.0.0.1
+Stack Trace:
+#0 /home/monty/neonet/vendor/cakephp/cakephp/src/View/View.php(973): Cake\View\View->_evaluate('/home/monty/neo...', Array)
+#1 /home/monty/neonet/vendor/cakephp/cakephp/src/View/View.php(597): Cake\View\View->_render('/home/monty/neo...')
+#2 /home/monty/neonet/vendor/cakephp/cakephp/src/Controller/Controller.php(617): Cake\View\View->render(NULL, NULL)
+#3 /home/monty/neonet/vendor/cakephp/cakephp/src/Http/ActionDispatcher.php(127): Cake\Controller\Controller->render()
+#4 /home/monty/neonet/vendor/cakephp/cakephp/src/Http/ActionDispatcher.php(95): Cake\Http\ActionDispatcher->_invoke(Object(App\Controller\ContactsController))
+#5 /home/monty/neonet/vendor/cakephp/cakephp/src/Http/BaseApplication.php(83): Cake\Http\ActionDispatcher->dispatch(Object(Cake\Network\Request), Object(Cake\Network\Response))
+#6 /home/monty/neonet/vendor/cakephp/cakephp/src/Http/Runner.php(65): Cake\Http\BaseApplication->__invoke(Object(Zend\Diactoros\ServerRequest), Object(Zend\Diactoros\Response), Object(Cake\Http\Runner))
+#7 /home/monty/neonet/vendor/cakephp/cakephp/src/Routing/Middleware/RoutingMiddleware.php(62): Cake\Http\Runner->__invoke(Object(Zend\Diactoros\ServerRequest), Object(Zend\Diactoros\Response))
+#8 /home/monty/neonet/vendor/cakephp/cakephp/src/Http/Runner.php(65): Cake\Routing\Middleware\RoutingMiddleware->__invoke(Object(Zend\Diactoros\ServerRequest), Object(Zend\Diactoros\Response), Object(Cake\Http\Runner))
+#9 /home/monty/neonet/vendor/cakephp/cakephp/src/Routing/Middleware/AssetMiddleware.php(88): Cake\Http\Runner->__invoke(Object(Zend\Diactoros\ServerRequest), Object(Zend\Diactoros\Response))
+#10 /home/monty/neonet/vendor/cakephp/cakephp/src/Http/Runner.php(65): Cake\Routing\Middleware\AssetMiddleware->__invoke(Object(Zend\Diactoros\ServerRequest), Object(Zend\Diactoros\Response), Object(Cake\Http\Runner))
+#11 /home/monty/neonet/vendor/cakephp/cakephp/src/Error/Middleware/ErrorHandlerMiddleware.php(81): Cake\Http\Runner->__invoke(Object(Zend\Diactoros\ServerRequest), Object(Zend\Diactoros\Response))
+#12 /home/monty/neonet/vendor/cakephp/cakephp/src/Http/Runner.php(65): Cake\Error\Middleware\ErrorHandlerMiddleware->__invoke(Object(Zend\Diactoros\ServerRequest), Object(Zend\Diactoros\Response), Object(Cake\Http\Runner))
+#13 /home/monty/neonet/vendor/cakephp/cakephp/src/Http/Runner.php(51): Cake\Http\Runner->__invoke(Object(Zend\Diactoros\ServerRequest), Object(Zend\Diactoros\Response))
+#14 /home/monty/neonet/vendor/cakephp/cakephp/src/Http/Server.php(90): Cake\Http\Runner->run(Object(Cake\Http\MiddlewareQueue), Object(Zend\Diactoros\ServerRequest), Object(Zend\Diactoros\Response))
+#15 /home/monty/neonet/webroot/index.php(37): Cake\Http\Server->run()
+#16 {main}
+
+
+2017-01-02 01:07:59 Warning: DebugKit not enabled. You need to either install pdo_sqlite, or define the "debug_kit" connection name.
+2017-01-02 01:08:00 Error: [Error] Call to a member function sort() on null
+Request URL: /?sort=dbContactNumber&direction=desc
+Referer URL: http://localhost:8765/?sort=dbContactNumber&direction=asc
+Client IP: 127.0.0.1
+Stack Trace:
+#0 /home/monty/neonet/vendor/cakephp/cakephp/src/View/View.php(1014): include()
+#1 /home/monty/neonet/vendor/cakephp/cakephp/src/View/View.php(973): Cake\View\View->_evaluate('/home/monty/neo...', Array)
+#2 /home/monty/neonet/vendor/cakephp/cakephp/src/View/View.php(597): Cake\View\View->_render('/home/monty/neo...')
+#3 /home/monty/neonet/vendor/cakephp/cakephp/src/Controller/Controller.php(617): Cake\View\View->render(NULL, NULL)
+#4 /home/monty/neonet/vendor/cakephp/cakephp/src/Http/ActionDispatcher.php(127): Cake\Controller\Controller->render()
+#5 /home/monty/neonet/vendor/cakephp/cakephp/src/Http/ActionDispatcher.php(95): Cake\Http\ActionDispatcher->_invoke(Object(App\Controller\ContactsController))
+#6 /home/monty/neonet/vendor/cakephp/cakephp/src/Http/BaseApplication.php(83): Cake\Http\ActionDispatcher->dispatch(Object(Cake\Network\Request), Object(Cake\Network\Response))
+#7 /home/monty/neonet/vendor/cakephp/cakephp/src/Http/Runner.php(65): Cake\Http\BaseApplication->__invoke(Object(Zend\Diactoros\ServerRequest), Object(Zend\Diactoros\Response), Object(Cake\Http\Runner))
+#8 /home/monty/neonet/vendor/cakephp/cakephp/src/Routing/Middleware/RoutingMiddleware.php(62): Cake\Http\Runner->__invoke(Object(Zend\Diactoros\ServerRequest), Object(Zend\Diactoros\Response))
+#9 /home/monty/neonet/vendor/cakephp/cakephp/src/Http/Runner.php(65): Cake\Routing\Middleware\RoutingMiddleware->__invoke(Object(Zend\Diactoros\ServerRequest), Object(Zend\Diactoros\Response), Object(Cake\Http\Runner))
+#10 /home/monty/neonet/vendor/cakephp/cakephp/src/Routing/Middleware/AssetMiddleware.php(88): Cake\Http\Runner->__invoke(Object(Zend\Diactoros\ServerRequest), Object(Zend\Diactoros\Response))
+#11 /home/monty/neonet/vendor/cakephp/cakephp/src/Http/Runner.php(65): Cake\Routing\Middleware\AssetMiddleware->__invoke(Object(Zend\Diactoros\ServerRequest), Object(Zend\Diactoros\Response), Object(Cake\Http\Runner))
+#12 /home/monty/neonet/vendor/cakephp/cakephp/src/Error/Middleware/ErrorHandlerMiddleware.php(81): Cake\Http\Runner->__invoke(Object(Zend\Diactoros\ServerRequest), Object(Zend\Diactoros\Response))
+#13 /home/monty/neonet/vendor/cakephp/cakephp/src/Http/Runner.php(65): Cake\Error\Middleware\ErrorHandlerMiddleware->__invoke(Object(Zend\Diactoros\ServerRequest), Object(Zend\Diactoros\Response), Object(Cake\Http\Runner))
+#14 /home/monty/neonet/vendor/cakephp/cakephp/src/Http/Runner.php(51): Cake\Http\Runner->__invoke(Object(Zend\Diactoros\ServerRequest), Object(Zend\Diactoros\Response))
+#15 /home/monty/neonet/vendor/cakephp/cakephp/src/Http/Server.php(90): Cake\Http\Runner->run(Object(Cake\Http\MiddlewareQueue), Object(Zend\Diactoros\ServerRequest), Object(Zend\Diactoros\Response))
+#16 /home/monty/neonet/webroot/index.php(37): Cake\Http\Server->run()
+#17 {main}
+
+
+2017-01-02 01:08:14 Warning: DebugKit not enabled. You need to either install pdo_sqlite, or define the "debug_kit" connection name.
+2017-01-02 01:08:52 Warning: DebugKit not enabled. You need to either install pdo_sqlite, or define the "debug_kit" connection name.
+2017-01-02 01:08:53 Error: [Error] Call to a member function sort() on null
+Request URL: /?sort=dbContactNumber&direction=desc
+Referer URL: http://localhost:8765/?sort=dbContactNumber&direction=asc
+Client IP: 127.0.0.1
+Stack Trace:
+#0 /home/monty/neonet/vendor/cakephp/cakephp/src/View/View.php(1014): include()
+#1 /home/monty/neonet/vendor/cakephp/cakephp/src/View/View.php(973): Cake\View\View->_evaluate('/home/monty/neo...', Array)
+#2 /home/monty/neonet/vendor/cakephp/cakephp/src/View/View.php(597): Cake\View\View->_render('/home/monty/neo...')
+#3 /home/monty/neonet/vendor/cakephp/cakephp/src/Controller/Controller.php(617): Cake\View\View->render(NULL, NULL)
+#4 /home/monty/neonet/vendor/cakephp/cakephp/src/Http/ActionDispatcher.php(127): Cake\Controller\Controller->render()
+#5 /home/monty/neonet/vendor/cakephp/cakephp/src/Http/ActionDispatcher.php(95): Cake\Http\ActionDispatcher->_invoke(Object(App\Controller\ContactsController))
+#6 /home/monty/neonet/vendor/cakephp/cakephp/src/Http/BaseApplication.php(83): Cake\Http\ActionDispatcher->dispatch(Object(Cake\Network\Request), Object(Cake\Network\Response))
+#7 /home/monty/neonet/vendor/cakephp/cakephp/src/Http/Runner.php(65): Cake\Http\BaseApplication->__invoke(Object(Zend\Diactoros\ServerRequest), Object(Zend\Diactoros\Response), Object(Cake\Http\Runner))
+#8 /home/monty/neonet/vendor/cakephp/cakephp/src/Routing/Middleware/RoutingMiddleware.php(62): Cake\Http\Runner->__invoke(Object(Zend\Diactoros\ServerRequest), Object(Zend\Diactoros\Response))
+#9 /home/monty/neonet/vendor/cakephp/cakephp/src/Http/Runner.php(65): Cake\Routing\Middleware\RoutingMiddleware->__invoke(Object(Zend\Diactoros\ServerRequest), Object(Zend\Diactoros\Response), Object(Cake\Http\Runner))
+#10 /home/monty/neonet/vendor/cakephp/cakephp/src/Routing/Middleware/AssetMiddleware.php(88): Cake\Http\Runner->__invoke(Object(Zend\Diactoros\ServerRequest), Object(Zend\Diactoros\Response))
+#11 /home/monty/neonet/vendor/cakephp/cakephp/src/Http/Runner.php(65): Cake\Routing\Middleware\AssetMiddleware->__invoke(Object(Zend\Diactoros\ServerRequest), Object(Zend\Diactoros\Response), Object(Cake\Http\Runner))
+#12 /home/monty/neonet/vendor/cakephp/cakephp/src/Error/Middleware/ErrorHandlerMiddleware.php(81): Cake\Http\Runner->__invoke(Object(Zend\Diactoros\ServerRequest), Object(Zend\Diactoros\Response))
+#13 /home/monty/neonet/vendor/cakephp/cakephp/src/Http/Runner.php(65): Cake\Error\Middleware\ErrorHandlerMiddleware->__invoke(Object(Zend\Diactoros\ServerRequest), Object(Zend\Diactoros\Response), Object(Cake\Http\Runner))
+#14 /home/monty/neonet/vendor/cakephp/cakephp/src/Http/Runner.php(51): Cake\Http\Runner->__invoke(Object(Zend\Diactoros\ServerRequest), Object(Zend\Diactoros\Response))
+#15 /home/monty/neonet/vendor/cakephp/cakephp/src/Http/Server.php(90): Cake\Http\Runner->run(Object(Cake\Http\MiddlewareQueue), Object(Zend\Diactoros\ServerRequest), Object(Zend\Diactoros\Response))
+#16 /home/monty/neonet/webroot/index.php(37): Cake\Http\Server->run()
+#17 {main}
+
+
+2017-01-02 01:09:49 Warning: DebugKit not enabled. You need to either install pdo_sqlite, or define the "debug_kit" connection name.
+2017-01-02 01:09:50 Error: [Error] Call to a member function __() on string
+Request URL: /?sort=dbContactNumber&direction=desc
+Referer URL: http://localhost:8765/?sort=dbContactNumber&direction=asc
+Client IP: 127.0.0.1
+Stack Trace:
+#0 /home/monty/neonet/vendor/cakephp/cakephp/src/View/View.php(1014): include()
+#1 /home/monty/neonet/vendor/cakephp/cakephp/src/View/View.php(973): Cake\View\View->_evaluate('/home/monty/neo...', Array)
+#2 /home/monty/neonet/vendor/cakephp/cakephp/src/View/View.php(597): Cake\View\View->_render('/home/monty/neo...')
+#3 /home/monty/neonet/vendor/cakephp/cakephp/src/Controller/Controller.php(617): Cake\View\View->render(NULL, NULL)
+#4 /home/monty/neonet/vendor/cakephp/cakephp/src/Http/ActionDispatcher.php(127): Cake\Controller\Controller->render()
+#5 /home/monty/neonet/vendor/cakephp/cakephp/src/Http/ActionDispatcher.php(95): Cake\Http\ActionDispatcher->_invoke(Object(App\Controller\ContactsController))
+#6 /home/monty/neonet/vendor/cakephp/cakephp/src/Http/BaseApplication.php(83): Cake\Http\ActionDispatcher->dispatch(Object(Cake\Network\Request), Object(Cake\Network\Response))
+#7 /home/monty/neonet/vendor/cakephp/cakephp/src/Http/Runner.php(65): Cake\Http\BaseApplication->__invoke(Object(Zend\Diactoros\ServerRequest), Object(Zend\Diactoros\Response), Object(Cake\Http\Runner))
+#8 /home/monty/neonet/vendor/cakephp/cakephp/src/Routing/Middleware/RoutingMiddleware.php(62): Cake\Http\Runner->__invoke(Object(Zend\Diactoros\ServerRequest), Object(Zend\Diactoros\Response))
+#9 /home/monty/neonet/vendor/cakephp/cakephp/src/Http/Runner.php(65): Cake\Routing\Middleware\RoutingMiddleware->__invoke(Object(Zend\Diactoros\ServerRequest), Object(Zend\Diactoros\Response), Object(Cake\Http\Runner))
+#10 /home/monty/neonet/vendor/cakephp/cakephp/src/Routing/Middleware/AssetMiddleware.php(88): Cake\Http\Runner->__invoke(Object(Zend\Diactoros\ServerRequest), Object(Zend\Diactoros\Response))
+#11 /home/monty/neonet/vendor/cakephp/cakephp/src/Http/Runner.php(65): Cake\Routing\Middleware\AssetMiddleware->__invoke(Object(Zend\Diactoros\ServerRequest), Object(Zend\Diactoros\Response), Object(Cake\Http\Runner))
+#12 /home/monty/neonet/vendor/cakephp/cakephp/src/Error/Middleware/ErrorHandlerMiddleware.php(81): Cake\Http\Runner->__invoke(Object(Zend\Diactoros\ServerRequest), Object(Zend\Diactoros\Response))
+#13 /home/monty/neonet/vendor/cakephp/cakephp/src/Http/Runner.php(65): Cake\Error\Middleware\ErrorHandlerMiddleware->__invoke(Object(Zend\Diactoros\ServerRequest), Object(Zend\Diactoros\Response), Object(Cake\Http\Runner))
+#14 /home/monty/neonet/vendor/cakephp/cakephp/src/Http/Runner.php(51): Cake\Http\Runner->__invoke(Object(Zend\Diactoros\ServerRequest), Object(Zend\Diactoros\Response))
+#15 /home/monty/neonet/vendor/cakephp/cakephp/src/Http/Server.php(90): Cake\Http\Runner->run(Object(Cake\Http\MiddlewareQueue), Object(Zend\Diactoros\ServerRequest), Object(Zend\Diactoros\Response))
+#16 /home/monty/neonet/webroot/index.php(37): Cake\Http\Server->run()
+#17 {main}
+
+
+2017-01-02 01:09:59 Warning: DebugKit not enabled. You need to either install pdo_sqlite, or define the "debug_kit" connection name.
+2017-01-02 01:11:42 Warning: DebugKit not enabled. You need to either install pdo_sqlite, or define the "debug_kit" connection name.
+2017-01-02 01:11:50 Warning: DebugKit not enabled. You need to either install pdo_sqlite, or define the "debug_kit" connection name.
+2017-01-02 01:11:54 Warning: DebugKit not enabled. You need to either install pdo_sqlite, or define the "debug_kit" connection name.
+2017-01-02 01:11:57 Warning: DebugKit not enabled. You need to either install pdo_sqlite, or define the "debug_kit" connection name.
+2017-01-02 01:11:58 Warning: DebugKit not enabled. You need to either install pdo_sqlite, or define the "debug_kit" connection name.
+2017-01-02 01:12:03 Warning: DebugKit not enabled. You need to either install pdo_sqlite, or define the "debug_kit" connection name.
+2017-01-02 01:12:08 Warning: DebugKit not enabled. You need to either install pdo_sqlite, or define the "debug_kit" connection name.
+2017-01-02 01:12:13 Warning: DebugKit not enabled. You need to either install pdo_sqlite, or define the "debug_kit" connection name.
+2017-01-02 01:12:17 Warning: DebugKit not enabled. You need to either install pdo_sqlite, or define the "debug_kit" connection name.
+2017-01-02 01:12:24 Warning: DebugKit not enabled. You need to either install pdo_sqlite, or define the "debug_kit" connection name.
+2017-01-02 01:12:26 Warning: DebugKit not enabled. You need to either install pdo_sqlite, or define the "debug_kit" connection name.
+2017-01-02 01:12:29 Warning: DebugKit not enabled. You need to either install pdo_sqlite, or define the "debug_kit" connection name.
+2017-01-02 01:12:31 Warning: DebugKit not enabled. You need to either install pdo_sqlite, or define the "debug_kit" connection name.
+2017-01-02 01:12:41 Warning: DebugKit not enabled. You need to either install pdo_sqlite, or define the "debug_kit" connection name.
+2017-01-02 01:12:44 Warning: DebugKit not enabled. You need to either install pdo_sqlite, or define the "debug_kit" connection name.
+2017-01-02 01:12:47 Warning: DebugKit not enabled. You need to either install pdo_sqlite, or define the "debug_kit" connection name.
+2017-01-02 01:29:02 Warning: DebugKit not enabled. You need to either install pdo_sqlite, or define the "debug_kit" connection name.
+2017-01-02 01:29:03 Error: [ParseError] syntax error, unexpected '->' (T_OBJECT_OPERATOR), expecting ',' or ';'
+Request URL: /?sort=dbContactNumber&direction=desc
+Referer URL: http://localhost:8765/?sort=dbContactNumber&direction=asc
+Client IP: 127.0.0.1
+Stack Trace:
+#0 /home/monty/neonet/vendor/cakephp/cakephp/src/View/View.php(973): Cake\View\View->_evaluate('/home/monty/neo...', Array)
+#1 /home/monty/neonet/vendor/cakephp/cakephp/src/View/View.php(597): Cake\View\View->_render('/home/monty/neo...')
+#2 /home/monty/neonet/vendor/cakephp/cakephp/src/Controller/Controller.php(617): Cake\View\View->render(NULL, NULL)
+#3 /home/monty/neonet/vendor/cakephp/cakephp/src/Http/ActionDispatcher.php(127): Cake\Controller\Controller->render()
+#4 /home/monty/neonet/vendor/cakephp/cakephp/src/Http/ActionDispatcher.php(95): Cake\Http\ActionDispatcher->_invoke(Object(App\Controller\ContactsController))
+#5 /home/monty/neonet/vendor/cakephp/cakephp/src/Http/BaseApplication.php(83): Cake\Http\ActionDispatcher->dispatch(Object(Cake\Network\Request), Object(Cake\Network\Response))
+#6 /home/monty/neonet/vendor/cakephp/cakephp/src/Http/Runner.php(65): Cake\Http\BaseApplication->__invoke(Object(Zend\Diactoros\ServerRequest), Object(Zend\Diactoros\Response), Object(Cake\Http\Runner))
+#7 /home/monty/neonet/vendor/cakephp/cakephp/src/Routing/Middleware/RoutingMiddleware.php(62): Cake\Http\Runner->__invoke(Object(Zend\Diactoros\ServerRequest), Object(Zend\Diactoros\Response))
+#8 /home/monty/neonet/vendor/cakephp/cakephp/src/Http/Runner.php(65): Cake\Routing\Middleware\RoutingMiddleware->__invoke(Object(Zend\Diactoros\ServerRequest), Object(Zend\Diactoros\Response), Object(Cake\Http\Runner))
+#9 /home/monty/neonet/vendor/cakephp/cakephp/src/Routing/Middleware/AssetMiddleware.php(88): Cake\Http\Runner->__invoke(Object(Zend\Diactoros\ServerRequest), Object(Zend\Diactoros\Response))
+#10 /home/monty/neonet/vendor/cakephp/cakephp/src/Http/Runner.php(65): Cake\Routing\Middleware\AssetMiddleware->__invoke(Object(Zend\Diactoros\ServerRequest), Object(Zend\Diactoros\Response), Object(Cake\Http\Runner))
+#11 /home/monty/neonet/vendor/cakephp/cakephp/src/Error/Middleware/ErrorHandlerMiddleware.php(81): Cake\Http\Runner->__invoke(Object(Zend\Diactoros\ServerRequest), Object(Zend\Diactoros\Response))
+#12 /home/monty/neonet/vendor/cakephp/cakephp/src/Http/Runner.php(65): Cake\Error\Middleware\ErrorHandlerMiddleware->__invoke(Object(Zend\Diactoros\ServerRequest), Object(Zend\Diactoros\Response), Object(Cake\Http\Runner))
+#13 /home/monty/neonet/vendor/cakephp/cakephp/src/Http/Runner.php(51): Cake\Http\Runner->__invoke(Object(Zend\Diactoros\ServerRequest), Object(Zend\Diactoros\Response))
+#14 /home/monty/neonet/vendor/cakephp/cakephp/src/Http/Server.php(90): Cake\Http\Runner->run(Object(Cake\Http\MiddlewareQueue), Object(Zend\Diactoros\ServerRequest), Object(Zend\Diactoros\Response))
+#15 /home/monty/neonet/webroot/index.php(37): Cake\Http\Server->run()
+#16 {main}
+
+
+2017-01-02 01:29:24 Warning: DebugKit not enabled. You need to either install pdo_sqlite, or define the "debug_kit" connection name.
+2017-01-02 01:30:18 Warning: DebugKit not enabled. You need to either install pdo_sqlite, or define the "debug_kit" connection name.
+2017-01-02 01:31:00 Warning: DebugKit not enabled. You need to either install pdo_sqlite, or define the "debug_kit" connection name.
+2017-01-02 01:32:55 Warning: DebugKit not enabled. You need to either install pdo_sqlite, or define the "debug_kit" connection name.
+2017-01-02 01:32:56 Error: [ParseError] syntax error, unexpected '->' (T_OBJECT_OPERATOR), expecting ']'
+Request URL: /
+Client IP: 127.0.0.1
+Stack Trace:
+#0 /home/monty/neonet/vendor/cakephp/cakephp/src/View/View.php(973): Cake\View\View->_evaluate('/home/monty/neo...', Array)
+#1 /home/monty/neonet/vendor/cakephp/cakephp/src/View/View.php(597): Cake\View\View->_render('/home/monty/neo...')
+#2 /home/monty/neonet/vendor/cakephp/cakephp/src/Controller/Controller.php(617): Cake\View\View->render(NULL, NULL)
+#3 /home/monty/neonet/vendor/cakephp/cakephp/src/Http/ActionDispatcher.php(127): Cake\Controller\Controller->render()
+#4 /home/monty/neonet/vendor/cakephp/cakephp/src/Http/ActionDispatcher.php(95): Cake\Http\ActionDispatcher->_invoke(Object(App\Controller\ContactsController))
+#5 /home/monty/neonet/vendor/cakephp/cakephp/src/Http/BaseApplication.php(83): Cake\Http\ActionDispatcher->dispatch(Object(Cake\Network\Request), Object(Cake\Network\Response))
+#6 /home/monty/neonet/vendor/cakephp/cakephp/src/Http/Runner.php(65): Cake\Http\BaseApplication->__invoke(Object(Zend\Diactoros\ServerRequest), Object(Zend\Diactoros\Response), Object(Cake\Http\Runner))
+#7 /home/monty/neonet/vendor/cakephp/cakephp/src/Routing/Middleware/RoutingMiddleware.php(62): Cake\Http\Runner->__invoke(Object(Zend\Diactoros\ServerRequest), Object(Zend\Diactoros\Response))
+#8 /home/monty/neonet/vendor/cakephp/cakephp/src/Http/Runner.php(65): Cake\Routing\Middleware\RoutingMiddleware->__invoke(Object(Zend\Diactoros\ServerRequest), Object(Zend\Diactoros\Response), Object(Cake\Http\Runner))
+#9 /home/monty/neonet/vendor/cakephp/cakephp/src/Routing/Middleware/AssetMiddleware.php(88): Cake\Http\Runner->__invoke(Object(Zend\Diactoros\ServerRequest), Object(Zend\Diactoros\Response))
+#10 /home/monty/neonet/vendor/cakephp/cakephp/src/Http/Runner.php(65): Cake\Routing\Middleware\AssetMiddleware->__invoke(Object(Zend\Diactoros\ServerRequest), Object(Zend\Diactoros\Response), Object(Cake\Http\Runner))
+#11 /home/monty/neonet/vendor/cakephp/cakephp/src/Error/Middleware/ErrorHandlerMiddleware.php(81): Cake\Http\Runner->__invoke(Object(Zend\Diactoros\ServerRequest), Object(Zend\Diactoros\Response))
+#12 /home/monty/neonet/vendor/cakephp/cakephp/src/Http/Runner.php(65): Cake\Error\Middleware\ErrorHandlerMiddleware->__invoke(Object(Zend\Diactoros\ServerRequest), Object(Zend\Diactoros\Response), Object(Cake\Http\Runner))
+#13 /home/monty/neonet/vendor/cakephp/cakephp/src/Http/Runner.php(51): Cake\Http\Runner->__invoke(Object(Zend\Diactoros\ServerRequest), Object(Zend\Diactoros\Response))
+#14 /home/monty/neonet/vendor/cakephp/cakephp/src/Http/Server.php(90): Cake\Http\Runner->run(Object(Cake\Http\MiddlewareQueue), Object(Zend\Diactoros\ServerRequest), Object(Zend\Diactoros\Response))
+#15 /home/monty/neonet/webroot/index.php(37): Cake\Http\Server->run()
+#16 {main}
+
+
+2017-01-02 01:33:47 Warning: DebugKit not enabled. You need to either install pdo_sqlite, or define the "debug_kit" connection name.
+2017-01-02 01:33:48 Error: [ParseError] syntax error, unexpected 'dbContactNumber' (T_STRING), expecting ']'
+Request URL: /
+Client IP: 127.0.0.1
+Stack Trace:
+#0 /home/monty/neonet/vendor/cakephp/cakephp/src/View/View.php(973): Cake\View\View->_evaluate('/home/monty/neo...', Array)
+#1 /home/monty/neonet/vendor/cakephp/cakephp/src/View/View.php(597): Cake\View\View->_render('/home/monty/neo...')
+#2 /home/monty/neonet/vendor/cakephp/cakephp/src/Controller/Controller.php(617): Cake\View\View->render(NULL, NULL)
+#3 /home/monty/neonet/vendor/cakephp/cakephp/src/Http/ActionDispatcher.php(127): Cake\Controller\Controller->render()
+#4 /home/monty/neonet/vendor/cakephp/cakephp/src/Http/ActionDispatcher.php(95): Cake\Http\ActionDispatcher->_invoke(Object(App\Controller\ContactsController))
+#5 /home/monty/neonet/vendor/cakephp/cakephp/src/Http/BaseApplication.php(83): Cake\Http\ActionDispatcher->dispatch(Object(Cake\Network\Request), Object(Cake\Network\Response))
+#6 /home/monty/neonet/vendor/cakephp/cakephp/src/Http/Runner.php(65): Cake\Http\BaseApplication->__invoke(Object(Zend\Diactoros\ServerRequest), Object(Zend\Diactoros\Response), Object(Cake\Http\Runner))
+#7 /home/monty/neonet/vendor/cakephp/cakephp/src/Routing/Middleware/RoutingMiddleware.php(62): Cake\Http\Runner->__invoke(Object(Zend\Diactoros\ServerRequest), Object(Zend\Diactoros\Response))
+#8 /home/monty/neonet/vendor/cakephp/cakephp/src/Http/Runner.php(65): Cake\Routing\Middleware\RoutingMiddleware->__invoke(Object(Zend\Diactoros\ServerRequest), Object(Zend\Diactoros\Response), Object(Cake\Http\Runner))
+#9 /home/monty/neonet/vendor/cakephp/cakephp/src/Routing/Middleware/AssetMiddleware.php(88): Cake\Http\Runner->__invoke(Object(Zend\Diactoros\ServerRequest), Object(Zend\Diactoros\Response))
+#10 /home/monty/neonet/vendor/cakephp/cakephp/src/Http/Runner.php(65): Cake\Routing\Middleware\AssetMiddleware->__invoke(Object(Zend\Diactoros\ServerRequest), Object(Zend\Diactoros\Response), Object(Cake\Http\Runner))
+#11 /home/monty/neonet/vendor/cakephp/cakephp/src/Error/Middleware/ErrorHandlerMiddleware.php(81): Cake\Http\Runner->__invoke(Object(Zend\Diactoros\ServerRequest), Object(Zend\Diactoros\Response))
+#12 /home/monty/neonet/vendor/cakephp/cakephp/src/Http/Runner.php(65): Cake\Error\Middleware\ErrorHandlerMiddleware->__invoke(Object(Zend\Diactoros\ServerRequest), Object(Zend\Diactoros\Response), Object(Cake\Http\Runner))
+#13 /home/monty/neonet/vendor/cakephp/cakephp/src/Http/Runner.php(51): Cake\Http\Runner->__invoke(Object(Zend\Diactoros\ServerRequest), Object(Zend\Diactoros\Response))
+#14 /home/monty/neonet/vendor/cakephp/cakephp/src/Http/Server.php(90): Cake\Http\Runner->run(Object(Cake\Http\MiddlewareQueue), Object(Zend\Diactoros\ServerRequest), Object(Zend\Diactoros\Response))
+#15 /home/monty/neonet/webroot/index.php(37): Cake\Http\Server->run()
+#16 {main}
+
+
+2017-01-02 01:34:19 Warning: DebugKit not enabled. You need to either install pdo_sqlite, or define the "debug_kit" connection name.
+2017-01-02 01:34:20 Error: [ParseError] syntax error, unexpected '->' (T_OBJECT_OPERATOR), expecting ',' or ')'
+Request URL: /
+Client IP: 127.0.0.1
+Stack Trace:
+#0 /home/monty/neonet/vendor/cakephp/cakephp/src/View/View.php(973): Cake\View\View->_evaluate('/home/monty/neo...', Array)
+#1 /home/monty/neonet/vendor/cakephp/cakephp/src/View/View.php(597): Cake\View\View->_render('/home/monty/neo...')
+#2 /home/monty/neonet/vendor/cakephp/cakephp/src/Controller/Controller.php(617): Cake\View\View->render(NULL, NULL)
+#3 /home/monty/neonet/vendor/cakephp/cakephp/src/Http/ActionDispatcher.php(127): Cake\Controller\Controller->render()
+#4 /home/monty/neonet/vendor/cakephp/cakephp/src/Http/ActionDispatcher.php(95): Cake\Http\ActionDispatcher->_invoke(Object(App\Controller\ContactsController))
+#5 /home/monty/neonet/vendor/cakephp/cakephp/src/Http/BaseApplication.php(83): Cake\Http\ActionDispatcher->dispatch(Object(Cake\Network\Request), Object(Cake\Network\Response))
+#6 /home/monty/neonet/vendor/cakephp/cakephp/src/Http/Runner.php(65): Cake\Http\BaseApplication->__invoke(Object(Zend\Diactoros\ServerRequest), Object(Zend\Diactoros\Response), Object(Cake\Http\Runner))
+#7 /home/monty/neonet/vendor/cakephp/cakephp/src/Routing/Middleware/RoutingMiddleware.php(62): Cake\Http\Runner->__invoke(Object(Zend\Diactoros\ServerRequest), Object(Zend\Diactoros\Response))
+#8 /home/monty/neonet/vendor/cakephp/cakephp/src/Http/Runner.php(65): Cake\Routing\Middleware\RoutingMiddleware->__invoke(Object(Zend\Diactoros\ServerRequest), Object(Zend\Diactoros\Response), Object(Cake\Http\Runner))
+#9 /home/monty/neonet/vendor/cakephp/cakephp/src/Routing/Middleware/AssetMiddleware.php(88): Cake\Http\Runner->__invoke(Object(Zend\Diactoros\ServerRequest), Object(Zend\Diactoros\Response))
+#10 /home/monty/neonet/vendor/cakephp/cakephp/src/Http/Runner.php(65): Cake\Routing\Middleware\AssetMiddleware->__invoke(Object(Zend\Diactoros\ServerRequest), Object(Zend\Diactoros\Response), Object(Cake\Http\Runner))
+#11 /home/monty/neonet/vendor/cakephp/cakephp/src/Error/Middleware/ErrorHandlerMiddleware.php(81): Cake\Http\Runner->__invoke(Object(Zend\Diactoros\ServerRequest), Object(Zend\Diactoros\Response))
+#12 /home/monty/neonet/vendor/cakephp/cakephp/src/Http/Runner.php(65): Cake\Error\Middleware\ErrorHandlerMiddleware->__invoke(Object(Zend\Diactoros\ServerRequest), Object(Zend\Diactoros\Response), Object(Cake\Http\Runner))
+#13 /home/monty/neonet/vendor/cakephp/cakephp/src/Http/Runner.php(51): Cake\Http\Runner->__invoke(Object(Zend\Diactoros\ServerRequest), Object(Zend\Diactoros\Response))
+#14 /home/monty/neonet/vendor/cakephp/cakephp/src/Http/Server.php(90): Cake\Http\Runner->run(Object(Cake\Http\MiddlewareQueue), Object(Zend\Diactoros\ServerRequest), Object(Zend\Diactoros\Response))
+#15 /home/monty/neonet/webroot/index.php(37): Cake\Http\Server->run()
+#16 {main}
+
+
+2017-01-02 01:35:26 Warning: DebugKit not enabled. You need to either install pdo_sqlite, or define the "debug_kit" connection name.
+2017-01-02 01:35:27 Error: [ParseError] syntax error, unexpected 'dbContactNumber' (T_STRING), expecting ',' or ')'
+Request URL: /
+Client IP: 127.0.0.1
+Stack Trace:
+#0 /home/monty/neonet/vendor/cakephp/cakephp/src/View/View.php(973): Cake\View\View->_evaluate('/home/monty/neo...', Array)
+#1 /home/monty/neonet/vendor/cakephp/cakephp/src/View/View.php(597): Cake\View\View->_render('/home/monty/neo...')
+#2 /home/monty/neonet/vendor/cakephp/cakephp/src/Controller/Controller.php(617): Cake\View\View->render(NULL, NULL)
+#3 /home/monty/neonet/vendor/cakephp/cakephp/src/Http/ActionDispatcher.php(127): Cake\Controller\Controller->render()
+#4 /home/monty/neonet/vendor/cakephp/cakephp/src/Http/ActionDispatcher.php(95): Cake\Http\ActionDispatcher->_invoke(Object(App\Controller\ContactsController))
+#5 /home/monty/neonet/vendor/cakephp/cakephp/src/Http/BaseApplication.php(83): Cake\Http\ActionDispatcher->dispatch(Object(Cake\Network\Request), Object(Cake\Network\Response))
+#6 /home/monty/neonet/vendor/cakephp/cakephp/src/Http/Runner.php(65): Cake\Http\BaseApplication->__invoke(Object(Zend\Diactoros\ServerRequest), Object(Zend\Diactoros\Response), Object(Cake\Http\Runner))
+#7 /home/monty/neonet/vendor/cakephp/cakephp/src/Routing/Middleware/RoutingMiddleware.php(62): Cake\Http\Runner->__invoke(Object(Zend\Diactoros\ServerRequest), Object(Zend\Diactoros\Response))
+#8 /home/monty/neonet/vendor/cakephp/cakephp/src/Http/Runner.php(65): Cake\Routing\Middleware\RoutingMiddleware->__invoke(Object(Zend\Diactoros\ServerRequest), Object(Zend\Diactoros\Response), Object(Cake\Http\Runner))
+#9 /home/monty/neonet/vendor/cakephp/cakephp/src/Routing/Middleware/AssetMiddleware.php(88): Cake\Http\Runner->__invoke(Object(Zend\Diactoros\ServerRequest), Object(Zend\Diactoros\Response))
+#10 /home/monty/neonet/vendor/cakephp/cakephp/src/Http/Runner.php(65): Cake\Routing\Middleware\AssetMiddleware->__invoke(Object(Zend\Diactoros\ServerRequest), Object(Zend\Diactoros\Response), Object(Cake\Http\Runner))
+#11 /home/monty/neonet/vendor/cakephp/cakephp/src/Error/Middleware/ErrorHandlerMiddleware.php(81): Cake\Http\Runner->__invoke(Object(Zend\Diactoros\ServerRequest), Object(Zend\Diactoros\Response))
+#12 /home/monty/neonet/vendor/cakephp/cakephp/src/Http/Runner.php(65): Cake\Error\Middleware\ErrorHandlerMiddleware->__invoke(Object(Zend\Diactoros\ServerRequest), Object(Zend\Diactoros\Response), Object(Cake\Http\Runner))
+#13 /home/monty/neonet/vendor/cakephp/cakephp/src/Http/Runner.php(51): Cake\Http\Runner->__invoke(Object(Zend\Diactoros\ServerRequest), Object(Zend\Diactoros\Response))
+#14 /home/monty/neonet/vendor/cakephp/cakephp/src/Http/Server.php(90): Cake\Http\Runner->run(Object(Cake\Http\MiddlewareQueue), Object(Zend\Diactoros\ServerRequest), Object(Zend\Diactoros\Response))
+#15 /home/monty/neonet/webroot/index.php(37): Cake\Http\Server->run()
+#16 {main}
+
+
+2017-01-02 01:38:56 Warning: DebugKit not enabled. You need to either install pdo_sqlite, or define the "debug_kit" connection name.
+2017-01-02 01:38:57 Error: [Error] Call to a member function sort() on null
+Request URL: /
+Client IP: 127.0.0.1
+Stack Trace:
+#0 /home/monty/neonet/vendor/cakephp/cakephp/src/View/View.php(1014): include()
+#1 /home/monty/neonet/vendor/cakephp/cakephp/src/View/View.php(973): Cake\View\View->_evaluate('/home/monty/neo...', Array)
+#2 /home/monty/neonet/vendor/cakephp/cakephp/src/View/View.php(597): Cake\View\View->_render('/home/monty/neo...')
+#3 /home/monty/neonet/vendor/cakephp/cakephp/src/Controller/Controller.php(617): Cake\View\View->render(NULL, NULL)
+#4 /home/monty/neonet/vendor/cakephp/cakephp/src/Http/ActionDispatcher.php(127): Cake\Controller\Controller->render()
+#5 /home/monty/neonet/vendor/cakephp/cakephp/src/Http/ActionDispatcher.php(95): Cake\Http\ActionDispatcher->_invoke(Object(App\Controller\ContactsController))
+#6 /home/monty/neonet/vendor/cakephp/cakephp/src/Http/BaseApplication.php(83): Cake\Http\ActionDispatcher->dispatch(Object(Cake\Network\Request), Object(Cake\Network\Response))
+#7 /home/monty/neonet/vendor/cakephp/cakephp/src/Http/Runner.php(65): Cake\Http\BaseApplication->__invoke(Object(Zend\Diactoros\ServerRequest), Object(Zend\Diactoros\Response), Object(Cake\Http\Runner))
+#8 /home/monty/neonet/vendor/cakephp/cakephp/src/Routing/Middleware/RoutingMiddleware.php(62): Cake\Http\Runner->__invoke(Object(Zend\Diactoros\ServerRequest), Object(Zend\Diactoros\Response))
+#9 /home/monty/neonet/vendor/cakephp/cakephp/src/Http/Runner.php(65): Cake\Routing\Middleware\RoutingMiddleware->__invoke(Object(Zend\Diactoros\ServerRequest), Object(Zend\Diactoros\Response), Object(Cake\Http\Runner))
+#10 /home/monty/neonet/vendor/cakephp/cakephp/src/Routing/Middleware/AssetMiddleware.php(88): Cake\Http\Runner->__invoke(Object(Zend\Diactoros\ServerRequest), Object(Zend\Diactoros\Response))
+#11 /home/monty/neonet/vendor/cakephp/cakephp/src/Http/Runner.php(65): Cake\Routing\Middleware\AssetMiddleware->__invoke(Object(Zend\Diactoros\ServerRequest), Object(Zend\Diactoros\Response), Object(Cake\Http\Runner))
+#12 /home/monty/neonet/vendor/cakephp/cakephp/src/Error/Middleware/ErrorHandlerMiddleware.php(81): Cake\Http\Runner->__invoke(Object(Zend\Diactoros\ServerRequest), Object(Zend\Diactoros\Response))
+#13 /home/monty/neonet/vendor/cakephp/cakephp/src/Http/Runner.php(65): Cake\Error\Middleware\ErrorHandlerMiddleware->__invoke(Object(Zend\Diactoros\ServerRequest), Object(Zend\Diactoros\Response), Object(Cake\Http\Runner))
+#14 /home/monty/neonet/vendor/cakephp/cakephp/src/Http/Runner.php(51): Cake\Http\Runner->__invoke(Object(Zend\Diactoros\ServerRequest), Object(Zend\Diactoros\Response))
+#15 /home/monty/neonet/vendor/cakephp/cakephp/src/Http/Server.php(90): Cake\Http\Runner->run(Object(Cake\Http\MiddlewareQueue), Object(Zend\Diactoros\ServerRequest), Object(Zend\Diactoros\Response))
+#16 /home/monty/neonet/webroot/index.php(37): Cake\Http\Server->run()
+#17 {main}
+
+
+2017-01-02 01:42:50 Warning: DebugKit not enabled. You need to either install pdo_sqlite, or define the "debug_kit" connection name.
+2017-01-02 01:43:09 Warning: DebugKit not enabled. You need to either install pdo_sqlite, or define the "debug_kit" connection name.
+2017-01-02 01:43:10 Warning: DebugKit not enabled. You need to either install pdo_sqlite, or define the "debug_kit" connection name.
+2017-01-02 01:46:40 Warning: DebugKit not enabled. You need to either install pdo_sqlite, or define the "debug_kit" connection name.
+2017-01-02 01:46:45 Warning: DebugKit not enabled. You need to either install pdo_sqlite, or define the "debug_kit" connection name.
+2017-01-02 01:46:46 Warning: DebugKit not enabled. You need to either install pdo_sqlite, or define the "debug_kit" connection name.
+2017-01-02 01:47:17 Warning: DebugKit not enabled. You need to either install pdo_sqlite, or define the "debug_kit" connection name.
+2017-01-02 01:47:21 Warning: DebugKit not enabled. You need to either install pdo_sqlite, or define the "debug_kit" connection name.
+2017-01-02 01:47:23 Warning: DebugKit not enabled. You need to either install pdo_sqlite, or define the "debug_kit" connection name.
+2017-01-02 01:47:55 Warning: DebugKit not enabled. You need to either install pdo_sqlite, or define the "debug_kit" connection name.
+2017-01-02 01:48:44 Warning: DebugKit not enabled. You need to either install pdo_sqlite, or define the "debug_kit" connection name.
+2017-01-02 01:49:27 Warning: DebugKit not enabled. You need to either install pdo_sqlite, or define the "debug_kit" connection name.
+2017-01-02 01:51:07 Warning: DebugKit not enabled. You need to either install pdo_sqlite, or define the "debug_kit" connection name.
+2017-01-02 01:51:08 Warning: Warning (2): htmlspecialchars(): charset `Lee' not supported, assuming utf-8 in [/home/monty/neonet/vendor/cakephp/cakephp/src/Core/functions.php, line 69]
+Request URL: /contacts/view/4858
+Referer URL: http://localhost:8765/
+Client IP: 127.0.0.1
+Trace:
+Cake\Error\BaseErrorHandler::handleError() - CORE/src/Error/BaseErrorHandler.php, line 146
+htmlspecialchars - [internal], line ??
+h - CORE/src/Core/functions.php, line 69
+include - APP/Template/Contacts/view.ctp, line 11
+Cake\View\View::_evaluate() - CORE/src/View/View.php, line 1014
+Cake\View\View::_render() - CORE/src/View/View.php, line 973
+Cake\View\View::render() - CORE/src/View/View.php, line 597
+Cake\Controller\Controller::render() - CORE/src/Controller/Controller.php, line 617
+Cake\Http\ActionDispatcher::_invoke() - CORE/src/Http/ActionDispatcher.php, line 127
+Cake\Http\ActionDispatcher::dispatch() - CORE/src/Http/ActionDispatcher.php, line 95
+Cake\Http\BaseApplication::__invoke() - CORE/src/Http/BaseApplication.php, line 83
+Cake\Http\Runner::__invoke() - CORE/src/Http/Runner.php, line 65
+Cake\Routing\Middleware\RoutingMiddleware::__invoke() - CORE/src/Routing/Middleware/RoutingMiddleware.php, line 62
+Cake\Http\Runner::__invoke() - CORE/src/Http/Runner.php, line 65
+Cake\Routing\Middleware\AssetMiddleware::__invoke() - CORE/src/Routing/Middleware/AssetMiddleware.php, line 88
+Cake\Http\Runner::__invoke() - CORE/src/Http/Runner.php, line 65
+Cake\Error\Middleware\ErrorHandlerMiddleware::__invoke() - CORE/src/Error/Middleware/ErrorHandlerMiddleware.php, line 81
+Cake\Http\Runner::__invoke() - CORE/src/Http/Runner.php, line 65
+Cake\Http\Runner::run() - CORE/src/Http/Runner.php, line 51
+Cake\Http\Server::run() - CORE/src/Http/Server.php, line 90
+[main] - ROOT/webroot/index.php, line 37
+
+
+
+2017-01-02 01:51:32 Warning: DebugKit not enabled. You need to either install pdo_sqlite, or define the "debug_kit" connection name.
+2017-01-02 01:51:50 Warning: DebugKit not enabled. You need to either install pdo_sqlite, or define the "debug_kit" connection name.
+2017-01-02 01:52:11 Warning: DebugKit not enabled. You need to either install pdo_sqlite, or define the "debug_kit" connection name.
+2017-01-02 01:52:15 Warning: DebugKit not enabled. You need to either install pdo_sqlite, or define the "debug_kit" connection name.
+2017-01-02 01:52:18 Warning: DebugKit not enabled. You need to either install pdo_sqlite, or define the "debug_kit" connection name.
+2017-01-02 01:52:20 Warning: DebugKit not enabled. You need to either install pdo_sqlite, or define the "debug_kit" connection name.
+2017-01-02 01:52:25 Warning: DebugKit not enabled. You need to either install pdo_sqlite, or define the "debug_kit" connection name.
+2017-01-02 01:58:44 Warning: DebugKit not enabled. You need to either install pdo_sqlite, or define the "debug_kit" connection name.
+2017-01-02 01:59:10 Warning: DebugKit not enabled. You need to either install pdo_sqlite, or define the "debug_kit" connection name.
+2017-01-02 01:59:24 Warning: DebugKit not enabled. You need to either install pdo_sqlite, or define the "debug_kit" connection name.
+2017-01-02 01:59:35 Warning: DebugKit not enabled. You need to either install pdo_sqlite, or define the "debug_kit" connection name.
+2017-01-02 02:00:30 Warning: DebugKit not enabled. You need to either install pdo_sqlite, or define the "debug_kit" connection name.
+2017-01-02 02:00:30 Error: [ParseError] syntax error, unexpected ';', expecting ',' or ')'
+Request URL: /contacts/view/22897
+Referer URL: http://localhost:8765/?sort=dbContactNumber&direction=desc
+Client IP: 127.0.0.1
+Stack Trace:
+#0 /home/monty/neonet/vendor/cakephp/cakephp/src/View/View.php(973): Cake\View\View->_evaluate('/home/monty/neo...', Array)
+#1 /home/monty/neonet/vendor/cakephp/cakephp/src/View/View.php(597): Cake\View\View->_render('/home/monty/neo...')
+#2 /home/monty/neonet/vendor/cakephp/cakephp/src/Controller/Controller.php(617): Cake\View\View->render(NULL, NULL)
+#3 /home/monty/neonet/vendor/cakephp/cakephp/src/Http/ActionDispatcher.php(127): Cake\Controller\Controller->render()
+#4 /home/monty/neonet/vendor/cakephp/cakephp/src/Http/ActionDispatcher.php(95): Cake\Http\ActionDispatcher->_invoke(Object(App\Controller\ContactsController))
+#5 /home/monty/neonet/vendor/cakephp/cakephp/src/Http/BaseApplication.php(83): Cake\Http\ActionDispatcher->dispatch(Object(Cake\Network\Request), Object(Cake\Network\Response))
+#6 /home/monty/neonet/vendor/cakephp/cakephp/src/Http/Runner.php(65): Cake\Http\BaseApplication->__invoke(Object(Zend\Diactoros\ServerRequest), Object(Zend\Diactoros\Response), Object(Cake\Http\Runner))
+#7 /home/monty/neonet/vendor/cakephp/cakephp/src/Routing/Middleware/RoutingMiddleware.php(62): Cake\Http\Runner->__invoke(Object(Zend\Diactoros\ServerRequest), Object(Zend\Diactoros\Response))
+#8 /home/monty/neonet/vendor/cakephp/cakephp/src/Http/Runner.php(65): Cake\Routing\Middleware\RoutingMiddleware->__invoke(Object(Zend\Diactoros\ServerRequest), Object(Zend\Diactoros\Response), Object(Cake\Http\Runner))
+#9 /home/monty/neonet/vendor/cakephp/cakephp/src/Routing/Middleware/AssetMiddleware.php(88): Cake\Http\Runner->__invoke(Object(Zend\Diactoros\ServerRequest), Object(Zend\Diactoros\Response))
+#10 /home/monty/neonet/vendor/cakephp/cakephp/src/Http/Runner.php(65): Cake\Routing\Middleware\AssetMiddleware->__invoke(Object(Zend\Diactoros\ServerRequest), Object(Zend\Diactoros\Response), Object(Cake\Http\Runner))
+#11 /home/monty/neonet/vendor/cakephp/cakephp/src/Error/Middleware/ErrorHandlerMiddleware.php(81): Cake\Http\Runner->__invoke(Object(Zend\Diactoros\ServerRequest), Object(Zend\Diactoros\Response))
+#12 /home/monty/neonet/vendor/cakephp/cakephp/src/Http/Runner.php(65): Cake\Error\Middleware\ErrorHandlerMiddleware->__invoke(Object(Zend\Diactoros\ServerRequest), Object(Zend\Diactoros\Response), Object(Cake\Http\Runner))
+#13 /home/monty/neonet/vendor/cakephp/cakephp/src/Http/Runner.php(51): Cake\Http\Runner->__invoke(Object(Zend\Diactoros\ServerRequest), Object(Zend\Diactoros\Response))
+#14 /home/monty/neonet/vendor/cakephp/cakephp/src/Http/Server.php(90): Cake\Http\Runner->run(Object(Cake\Http\MiddlewareQueue), Object(Zend\Diactoros\ServerRequest), Object(Zend\Diactoros\Response))
+#15 /home/monty/neonet/webroot/index.php(37): Cake\Http\Server->run()
+#16 {main}
+
+
+2017-01-02 02:00:45 Warning: DebugKit not enabled. You need to either install pdo_sqlite, or define the "debug_kit" connection name.
+2017-01-02 02:01:40 Warning: DebugKit not enabled. You need to either install pdo_sqlite, or define the "debug_kit" connection name.
