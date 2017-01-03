@@ -16,6 +16,15 @@ class ContactsController extends AppController
      *
      * @return \Cake\Network\Response|null
      */
+
+    public $paginate = array(
+      'Contacts' => array(
+      'order' => array(
+          'dbContactNumber' => 'desc'
+        )
+      )
+    );
+
     public function index()
     {
         $contacts = $this->paginate($this->Contacts);
