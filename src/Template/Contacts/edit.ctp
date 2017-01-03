@@ -16,15 +16,14 @@
         <legend><?= __('Edit Contact') ?></legend>
         <?php
             echo $this->Form->input('dbDate', ['empty' => true]);
-            echo $this->Form->input('dbLastName');
-            echo $this->Form->input('dbFirstName');
-            echo $this->Form->input('dbCompany');
-            echo $this->Form->input('dbTitle');
-            echo $this->Form->input('dbBusinessTitle');
-            echo $this->Form->input('dbPrimaryEmail');
-            echo $this->Form->input('dbSecondaryEmail');
-            echo $this->Form->input('dbWebAddress');
-            echo $this->Form->input('dbAddNotes');
+            echo $this->Form->input('dbLastName', ['label'=>'Last Name']);
+            echo $this->Form->input('dbFirstName', ['label'=>'First Name']);
+            echo $this->Form->input('dbCompany', ['label'=>'Company']);
+            echo $this->Form->input('dbTitle', ['label'=>'Title']);
+            echo $this->Form->input('dbBusinessTitle', ['label'=>'Business']);
+            echo $this->Form->input('dbPrimaryEmail', ['label'=>'Email']);
+            echo $this->Form->input('dbSecondaryEmail', ['label'=>'Secondary Email']);
+            echo $this->Form->input('dbWebAddress', ['label'=>'Web Address']);
             echo $this->Form->input('dbSource');
             echo $this->Form->input('dbCheck');
             echo $this->Form->input('dbMailingLabel');

@@ -10,7 +10,6 @@
         <thead>
             <tr>
                 <th scope="col"><?= $this->Paginator->sort('dbContactNumber', 'Contact Number') ?></th>
-                <th scope="col"><?= $this->Paginator->sort('dbDate', 'Date Added') ?></th>
                 <th scope="col"><?= $this->Paginator->sort('dbLastName', 'Last Name') ?></th>
                 <th scope="col"><?= $this->Paginator->sort('dbFirstName', 'First Name') ?></th>
                 <th scope="col"><?= $this->Paginator->sort('dbCompany', 'Company') ?></th>
@@ -22,7 +21,6 @@
             <?php foreach ($contacts as $contact): ?>
             <tr>
                 <td><?= $this->Number->format($contact->dbContactNumber) ?></td>
-                <td><?= h($contact->dbDate) ?></td>
                 <td><?= h($contact->dbLastName) ?></td>
                 <td><?= h($contact->dbFirstName) ?></td>
                 <td><?= h($contact->dbCompany) ?></td>

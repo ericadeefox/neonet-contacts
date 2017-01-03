@@ -8,155 +8,95 @@
     </ul>
 </nav>
 <div class="contacts view large-9 medium-8 columns content">
-    <h4><?= h($contact->dbFirstName) ?> <?= h($contact->dbLastName) ?></h4>
-	<?= $this->Text->autoParagraph(h($contact->dbPrimaryEmail)); ?>
-	<?= $this->Text->autoParagraph(h($contact->dbAddress)); ?>
-	<?= $this->Text->autoParagraph(h($contact->dbCity)); ?> <?= h($contact->dbState) ?>
-	<?= $this->Text->autoParagraph(h($contact->dbCountry)); ?>
-    <table class="vertical-table">
-        <tr>
-            <th scope="row"><?= __('DbMailingLabel') ?></th>
-            <td><?= h($contact->dbMailingLabel) ?></td>
-        </tr>
-        <tr>
-            <th scope="row"><?= __('DbRegistrationComplete') ?></th>
-            <td><?= h($contact->dbRegistrationComplete) ?></td>
-        </tr>
-        <tr>
-            <th scope="row"><?= __('DbWebLook') ?></th>
-            <td><?= h($contact->dbWebLook) ?></td>
-        </tr>
-        <tr>
-            <th scope="row"><?= __('DbWantRec') ?></th>
-            <td><?= h($contact->dbWantRec) ?></td>
-        </tr>
-        <tr>
-            <th scope="row"><?= __('DbWantCom') ?></th>
-            <td><?= h($contact->dbWantCom) ?></td>
-        </tr>
-        <tr>
-            <th scope="row"><?= __('DbWantRes') ?></th>
-            <td><?= h($contact->dbWantRes) ?></td>
-        </tr>
-        <tr>
-            <th scope="row"><?= __('DbSelfAssembly') ?></th>
-            <td><?= h($contact->dbSelfAssembly) ?></td>
-        </tr>
-        <tr>
-            <th scope="row"><?= __('DbNeoAssembly') ?></th>
-            <td><?= h($contact->dbNeoAssembly) ?></td>
-        </tr>
-        <tr>
-            <th scope="row"><?= __('DbContactNumber') ?></th>
-            <td><?= $this->Number->format($contact->dbContactNumber) ?></td>
-        </tr>
-        <tr>
-            <th scope="row"><?= __('DbDate') ?></th>
-            <td><?= h($contact->dbDate) ?></td>
-        </tr>
-    </table>
-    <div class="row">
-        <h4><?= __('DbCompany') ?></h4>
-        <?= $this->Text->autoParagraph(h($contact->dbCompany)); ?>
-    </div>
-    <div class="row">
-        <h4><?= __('DbTitle') ?></h4>
-        <?= $this->Text->autoParagraph(h($contact->dbTitle)); ?>
-    </div>
-    <div class="row">
-        <h4><?= __('DbBusinessTitle') ?></h4>
-        <?= $this->Text->autoParagraph(h($contact->dbBusinessTitle)); ?>
-    </div>
-    <div class="row">
-        <h4><?= __('DbSecondaryEmail') ?></h4>
-        <?= $this->Text->autoParagraph(h($contact->dbSecondaryEmail)); ?>
-    </div>
-    <div class="row">
-        <h4><?= __('DbWebAddress') ?></h4>
-        <?= $this->Text->autoParagraph(h($contact->dbWebAddress)); ?>
-    </div>
-    <div class="row">
-        <h4><?= __('DbAddNotes') ?></h4>
-        <?= $this->Text->autoParagraph(h($contact->dbAddNotes)); ?>
-    </div>
-    <div class="row">
-        <h4><?= __('DbSource') ?></h4>
-        <?= $this->Text->autoParagraph(h($contact->dbSource)); ?>
-    </div>
-    <div class="row">
-        <h4><?= __('DbCheck') ?></h4>
-        <?= $this->Text->autoParagraph(h($contact->dbCheck)); ?>
-    </div>
-    <div class="row">
-        <h4><?= __('DbPassword') ?></h4>
-        <?= $this->Text->autoParagraph(h($contact->dbPassword)); ?>
-    </div>
-    <div class="row">
-        <h4><?= __('DbSecurityQuestion') ?></h4>
-        <?= $this->Text->autoParagraph(h($contact->dbSecurityQuestion)); ?>
-    </div>
-    <div class="row">
-        <h4><?= __('DbSecurityAnswer') ?></h4>
-        <?= $this->Text->autoParagraph(h($contact->dbSecurityAnswer)); ?>
-    </div>
-    <div class="row">
-        <h4><?= __('DbHowFind') ?></h4>
-        <?= $this->Text->autoParagraph(h($contact->dbHowFind)); ?>
-    </div>
-    <div class="row">
-        <h4><?= __('DbWhereUse') ?></h4>
-        <?= $this->Text->autoParagraph(h($contact->dbWhereUse)); ?>
-    </div>
-    <div class="row">
-        <h4><?= __('DbVehicles') ?></h4>
-        <?= $this->Text->autoParagraph(h($contact->dbVehicles)); ?>
-    </div>
-    <div class="row">
-        <h4><?= __('DbHowMuch') ?></h4>
-        <?= $this->Text->autoParagraph(h($contact->dbHowMuch)); ?>
-    </div>
-    <div class="row">
-        <h4><?= __('DbOtherComments') ?></h4>
-        <?= $this->Text->autoParagraph(h($contact->dbOtherComments)); ?>
-    </div>
-    <div class="row">
-        <h4><?= __('DbHowInterest') ?></h4>
-        <?= $this->Text->autoParagraph(h($contact->dbHowInterest)); ?>
-    </div>
-    <div class="row">
-        <h4><?= __('DbUsr') ?></h4>
-        <?= $this->Text->autoParagraph(h($contact->dbUsr)); ?>
-    </div>
-    <div class="row">
-        <h4><?= __('DbIP') ?></h4>
-        <?= $this->Text->autoParagraph(h($contact->dbIP)); ?>
-    </div>
-    <div class="row">
-        <h4><?= __('DbPhone') ?></h4>
-        <?= $this->Text->autoParagraph(h($contact->dbPhone)); ?>
-    </div>
-    <div class="row">
-        <h4><?= __('DbAddress') ?></h4>
-        <?= $this->Text->autoParagraph(h($contact->dbAddress)); ?>
-    </div>
-    <div class="row">
-        <h4><?= __('DbCity') ?></h4>
-        <?= $this->Text->autoParagraph(h($contact->dbCity)); ?>
-    </div>
-    <div class="row">
-        <h4><?= __('DbState') ?></h4>
-        <?= $this->Text->autoParagraph(h($contact->dbState)); ?>
-    </div>
-    <div class="row">
-        <h4><?= __('DbCountry') ?></h4>
-        <?= $this->Text->autoParagraph(h($contact->dbCountry)); ?>
-    </div>
-    <div class="row">
-        <h4><?= __('DbZip') ?></h4>
-        <?= $this->Text->autoParagraph(h($contact->dbZip)); ?>
-    </div>
-    <div class="row">
-        <h4><?= __('DbType') ?></h4>
-        <?= $this->Text->autoParagraph(h($contact->dbType)); ?>
-    </div>
+  <h4>
+    <?= h($contact->dbTitle); ?>
+    <?= h($contact->dbFirstName); ?>
+    <?= h($contact->dbLastName); ?><?php echo ($contact->dbBusinessTitle) ? ', ' : ''; ?><?= h($contact->dbBusinessTitle); ?><?php echo ($contact->dbCompany) ? ', ' : ''; ?><?= h($contact->dbCompany); ?>
+	</h4>
+  <table class="vertical-table">
+    <tr>
+      <th scope="row"><?= __('Address') ?></th>
+      <td>
+        <?= h($contact->dbAddress); ?>
+      </td>
+    </tr>
+    <tr>
+      <th scope="row"><?= __('Address') ?></th>
+      <td>
+        <?= h($contact->dbCity); ?><?php echo ($contact->dbState) ? ', ' : ' '; ?><?= h($contact->dbState); ?><?php echo ($contact->dbCountry) ? ', ' : ' '; ?><?= h($contact->dbCountry); ?>
+      </td>
+    </tr>
+    <tr>
+      <th scope="row"><?= __('Email Address') ?></th>
+      <td><?= $this->Text->autoLinkEmails($contact->dbPrimaryEmail) ?></td>
+    </tr>
+    <tr>
+      <th scope="row"><?= __('Phone Number') ?></th>
+      <td><?= h($contact->dbPhone); ?></td>
+    </tr>
+  </table>
+  <h4><?= __('Sales Information') ?></h4>
+  <table class="vertical-table">
+      <tr>
+          <th scope="row"><?= __('How did they find out about Neoteric?') ?></th>
+          <td>
+            <?= h($contact->dbHowFind); ?>
+            <?= h($contact->dbHowInterest); ?>
+          </td>
+      </tr>
+      <tr>
+          <th scope="row"><?= __('Where will they primarily be using their hovercraft?') ?></th>
+          <td><?= h($contact->dbWhereUse); ?></td>
+      </tr>
+      <tr>
+          <th scope="row"><?= __('Do they have other recreational vehicles?') ?></th>
+          <td><?= h($contact->dbVehicles); ?></td>
+      </tr>
+      <tr>
+          <th scope="row"><?= __('What type of hovercraft are they interested in?') ?></th>
+          <td><?= h($contact->dbType); ?></td>
+      </tr>
+      <tr>
+          <th scope="row"><?= __('Notes') ?></th>
+          <td>
+            <?= h($contact->dbAddNotes); ?>
+            <?= h($contact->dbOtherComments); ?>
+          </td>
+      </tr>
+  </table>
+  <h4><?= __('Web & Office Information') ?></h4>
+  <table class="vertical-table">
+      <tr>
+          <th scope="row"><?= __('Contact Number') ?></th>
+          <td><?= $this->Number->format($contact->dbContactNumber); ?></td>
+      </tr>
+      <tr>
+          <th scope="row"><?= __('Date Added') ?></th>
+          <td><?= h($contact->dbDate); ?></td>
+      </tr>
+      <tr>
+          <th scope="row"><?= __('Username') ?></th>
+          <td><?= h($contact->dbUsr); ?></td>
+      </tr>
+      <tr>
+          <th scope="row"><?= __('IP Address') ?></th>
+          <td><?= h($contact->dbIP); ?></td>
+      </tr>
+      <tr>
+          <th scope="row"><?= __('Secondary Email') ?></th>
+          <td><?= h($contact->dbSecondaryEmail); ?></td>
+      </tr>
+      <tr>
+          <th scope="row"><?= __('Web Address') ?></th>
+          <td><?= $this->Html->link(__($contact->dbWebAddress), ($contact->dbWebAddress), ['_full' => true]) ?></td>
+      </tr>
+      <tr>
+          <th scope="row"><?= __('Mailing Label?') ?></th>
+          <td><?= h($contact->dbMailingLabel); ?></td>
+      </tr>
+      <tr>
+          <th scope="row"><?= __('Registration Complete?') ?></th>
+          <td><?= h($contact->dbRegistrationComplete); ?></td>
+      </tr>
+  </table>
 </div>
